@@ -1,3 +1,8 @@
+'''
+O programa deve receber as coordenadas cartesianas de dois pontos e 
+retornar com a distância entre os pontos
+'''
+
 print('Informe as coordenadas de dos pontos A e B')
 
 x1 = float(input('Ponto A, coordenada x: '))
