@@ -1,0 +1,15 @@
+"""
+Escreva a função sao_multiplicaveis(m1, m2) que recebe duas matrizes
+como parâmetro e devolve True se as matrizes forem multiplicavéis
+(na ordem dada) e False caso contrário."""
+
+
+def sao_multiplicaveis(m1, m2):
+    nCol_m1 = len(m1[0])
+    nLin_m2 = len(m2)
+
+    if nCol_m1 == nLin_m2:
+        resultado = True
+    else:
+        resultado = False
+    return resultado
