@@ -1,5 +1,3 @@
-
-
 x = input('Digite um número inteiro: ')
 
 if len(x) == 1:

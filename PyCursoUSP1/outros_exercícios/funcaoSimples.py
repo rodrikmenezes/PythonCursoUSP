@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 def soma(x, y, z):
 
     '''
@@ -42,7 +39,9 @@ def fatorial(n):
 
 
 def coeficiente_binomial(n, k):
-
+    ''' (int, int) -> int
+    Calcula a combinação de n em k
+    '''
     resultado = fatorial(n) / (fatorial(k) * fatorial(n - k))
     return resultado
 
@@ -53,11 +52,11 @@ def leitura():
         x = int(input("Digite um valor: "))
     return x
 
+
 def troca(x, y):
     aux = x
     x = y
     y = aux
-
 
 
 # Teste função fatorial
@@ -91,4 +90,3 @@ def teste_fatorial():
         print('certo')
     else:
         print('errado')
-
