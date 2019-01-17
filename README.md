@@ -46,4 +46,4 @@ Lista de exercícios - 6
 
 SEMANA 9
 Mais sobre listas;
-Programa completo - Similaridades entre textos - Caso COH-PIAH
+Programa completo -> Similaridades entre textos
